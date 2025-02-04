@@ -29,9 +29,10 @@ function Header() {
       {isOpen && (
         <nav className="absolute top-14 left-0 w-full bg-primary p-5 flex flex-col items-center space-y-4 md:hidden">
           <a href="#" className="hover:underline" onClick={() => setIsOpen(false)}>Home</a>
-          <a href="#" className="hover:underline" onClick={() => setIsOpen(false)}>About</a>
-          <a href="#" className="hover:underline" onClick={() => setIsOpen(false)}>Projects</a>
-          <a href="#" className="hover:underline" onClick={() => setIsOpen(false)}>Contact</a>
+          <a href="#about" className="hover:underline" onClick={() => setIsOpen(false)}>About</a>
+          <a href="#project" className="hover:underline" onClick={() => setIsOpen(false)}>Projects</a>
+            <a href="#resume" className="hover:underline" onClick={() => setIsOpen(false)}>Resume</a>
+          <a href="#contact" className="hover:underline" onClick={() => setIsOpen(false)}>Contact</a>
         </nav>
       )}
     </header>
